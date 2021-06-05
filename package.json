@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-template",
+  "name": "yagipy.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,6 +8,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "export": "next export",
     "fix": "npm run fix:eslint && npm run fix:tsc && npm run fix:prettier",
     "fix:eslint": "npx eslint --fix",
     "fix:prettier": "npx prettier --write .",
