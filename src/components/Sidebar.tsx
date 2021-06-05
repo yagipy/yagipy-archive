@@ -4,14 +4,14 @@ import { titles } from '../docs/titles'
 
 export const Sidebar = () => {
   return (
-    <nav className="font-bold bg-blue-500 h-screen w-72 text-center table fixed">
-      <div className="align-middle table-cell">
-        <Image
+    <nav className="font-bold bg-blue-500 h-screen w-72 table fixed">
+      <div className="align-middle table-cell text-center">
+        <img
           src="/icon.svg"
           alt="icon"
           width={150}
           height={150}
-          className="rounded-full"
+          className="rounded-full mx-auto"
         />
         <ul>
           {Object.entries(titles).map(([key, title]) => {
